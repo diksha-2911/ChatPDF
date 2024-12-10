@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -21,7 +21,7 @@ def main():
     
 
     
-    load_dotenv() 
+    # load_dotenv() 
     # print("Hello World")
     st.set_page_config(page_title="Chat with PDF")
     st.header("Chat with your PDF 💬")
